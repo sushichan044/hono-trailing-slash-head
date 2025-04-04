@@ -3,7 +3,7 @@ on:
   - pull_request
 
 jobs:
-  cache-and-install:
+  CI:
     runs-on: ubuntu-24.04
 
     steps:
